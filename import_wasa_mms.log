@@ -1,0 +1,134 @@
+;;; 
+Import: Release 19.0.0.0.0 - Production on Sun Jul 20 12:52:04 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "WASA_MMS"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "WASA_MMS"."SYS_IMPORT_FULL_01":  WASA_MMS/********@103.93.32.159/ORCLPDB DIRECTORY=exp_dir DUMPFILE=SPRING_USER2_BACKUP.DMP LOGFILE=import_wasa_mms.log REMAP_SCHEMA=spring_user2:WASA_MMS TABLE_EXISTS_ACTION=TRUNCATE 
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."CENTRAL_STOCK_COUNT_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."METER_STATUS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."COMMENT_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."APPLICATION_FORWARDING_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."COMPLAIN_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."LETTERS_SEQ" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Table "WASA_MMS"."PORTAL_MANAGEMENT" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."COMPLAINT_COMMENT" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."LETTER_METER_CONDITION_IDS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."PAYMENT" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."OFFICE_TYPE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."DESIGNATION" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."STOCK_IN" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."CENTRAL_STORE_STOCK" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."COMPLAIN_APPLICATION" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."role" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."MENU_PRIVILEGE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."STOCK_OUT" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."CITIZEN_ROLES" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."USER_TYPE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."USERS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."LETTER_CONDITIONS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."CENTRAL_STOCK_COUNT" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."USERROLE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."ASSIGN_DESIGNATION" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."INSPECTOR_ASSIGN_HISTORY" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."APPLICATION_FORWARDING" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."METER_UNIT_SETUP" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."MODULES" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."METER_CONDITION" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."STOCK_ITEM" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."CITIZENS_INFO" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."FORWARDING_BEFORE_NOTE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."METER_STATUS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."EMPLOYEE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."METER_TEST_REPORT" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."OFFICE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."INSPECTOR_NOTE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."MENUS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."APPLICATION_TYPE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."CITIZEN_PROFILE" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."APPLICATION_METER_DIVISION_FORWARDING" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."LETTERS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Table "WASA_MMS"."HTE_METER_STATUS" exists and has been truncated. Data will be loaded but all dependent metadata will be skipped due to table_exists_action of truncate
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+ORA-31693: Table data object "WASA_MMS"."CITIZEN_PROFILE" failed to load/unload and is being skipped due to error:
+ORA-29913: error in executing ODCIEXTTABLEFETCH callout
+ORA-02291: integrity constraint (WASA_MMS.FK6C8EGS9MOTHV5V0A0JYXR8UB4) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."LETTERS" failed to load/unload and is being skipped due to error:
+ORA-29913: error in executing ODCIEXTTABLEFETCH callout
+ORA-02291: integrity constraint (WASA_MMS.FK2OP7WSL2F2MLVTVK9I9NH6G9T) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."COMPLAIN_APPLICATION" failed to load/unload and is being skipped due to error:
+ORA-29913: error in executing ODCIEXTTABLEFETCH callout
+ORA-02291: integrity constraint (WASA_MMS.FKT9PX8J86JU7IT669K568PD1BT) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."USERS" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKD53XEY2MO5HV7ETYBVTT1PI3R) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."METER_TEST_REPORT" failed to load/unload and is being skipped due to error:
+ORA-29913: error in executing ODCIEXTTABLEFETCH callout
+ORA-02291: integrity constraint (WASA_MMS.FKBH264F70SYHVXY5LKXYITORC0) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."MENUS" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK2Q5MJ616IVTGNP13BQ7OX81KF) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."PAYMENT" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKMX5EGCPVXW9SKGYVXVQT9FQPQ) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."CENTRAL_STOCK_COUNT" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKSDF4OA94JGJRWKJ166O5548OV) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."STOCK_ITEM" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKGT6ENGBWKROX1DAQ9JLPWY7X6) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."PORTAL_MANAGEMENT" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKQPA2OLNHK09BK93TT6T4CX83S) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."APPLICATION_FORWARDING" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK8KA8WUVTYVLKH5NTEMJHIK6QB) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."STOCK_IN" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKFAXVMQ5KRIITXLOTWQU98T9QH) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."APPLICATION_METER_DIVISION_FORWARDING" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK3X8VPL4M6S1DTIYL2CTWF2XHO) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."MENU_PRIVILEGE" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKOTF7NQPQHU2CXBFTOPCEXSKO3) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."FORWARDING_BEFORE_NOTE" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKAOS6XOE5HS12AVBWGQF8ND6AL) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."OFFICE" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK3B2CBTW3UIRXGJQ98SLY93XLY) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."MODULES" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKQ9VANVO0CLPV54HNU017UF1S8) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."ASSIGN_DESIGNATION" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKRAPE22TWN56QPT9MC260HKQM8) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."INSPECTOR_NOTE" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK5213G8PEJ0GXNGL22LF74K7D9) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."STOCK_OUT" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKMKOKA2W9HTRMWTFBDOPRGQ3HC) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."DESIGNATION" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK3184HFCIMNH7YHRB9CPSDSGNF) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."METER_UNIT_SETUP" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKQRIVDE9P2GYDSYS4J6U81085M) violated - parent key not found
+. . imported "WASA_MMS"."CITIZENS_INFO"                  8.257 KB       1 rows
+ORA-31693: Table data object "WASA_MMS"."COMPLAINT_COMMENT" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKBS0TVF9D14QS852RAWA7UI7XV) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."METER_CONDITION" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKC88UNM1BIA50IKRISLI88Q74V) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."OFFICE_TYPE" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FK68NJ00RWS7E6TSO13PL91E6SK) violated - parent key not found
+. . imported "WASA_MMS"."METER_STATUS"                   7.898 KB       2 rows
+. . imported "WASA_MMS"."USER_TYPE"                      7.062 KB       3 rows
+. . imported "WASA_MMS"."role"                           7.039 KB       3 rows
+ORA-31693: Table data object "WASA_MMS"."APPLICATION_TYPE" failed to load/unload and is being skipped due to error:
+ORA-02291: integrity constraint (WASA_MMS.FKAO9C66OOF5LGODRMTPGR6L1OB) violated - parent key not found
+ORA-31693: Table data object "WASA_MMS"."CENTRAL_STORE_STOCK" failed to load/unload and is being skipped due to error:
+ORA-29913: error in executing ODCIEXTTABLEOPEN callout
+ORA-29400: data cartridge error
+ORA-39784: This direct path operation is not allowed while another is in progress
+. . imported "WASA_MMS"."CITIZEN_ROLES"                      0 KB       0 rows
+. . imported "WASA_MMS"."EMPLOYEE"                           0 KB       0 rows
+. . imported "WASA_MMS"."INSPECTOR_ASSIGN_HISTORY"           0 KB       0 rows
+. . imported "WASA_MMS"."LETTER_CONDITIONS"                  0 KB       0 rows
+. . imported "WASA_MMS"."LETTER_METER_CONDITION_IDS"         0 KB       0 rows
+. . imported "WASA_MMS"."USERROLE"                           0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Job "WASA_MMS"."SYS_IMPORT_FULL_01" completed with 33 error(s) at Sun Jul 20 12:53:07 2025 elapsed 0 00:01:03
