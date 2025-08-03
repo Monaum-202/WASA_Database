@@ -1,0 +1,60 @@
+;;; 
+Import: Release 19.0.0.0.0 - Production on Sun Jul 20 13:12:14 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "WASA_MMS"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "WASA_MMS"."SYS_IMPORT_FULL_01":  WASA_MMS/********@103.93.32.159/ORCLPDB DIRECTORY=exp_dir DUMPFILE=SPRING_USER2_BACKUP.DMP LOGFILE=import_wasa_mms_retry.log REMAP_SCHEMA=spring_user2:WASA_MMS TABLE_EXISTS_ACTION=REPLACE EXCLUDE=STATISTICS 
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."CENTRAL_STOCK_COUNT_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."METER_STATUS_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."COMMENT_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."APPLICATION_FORWARDING_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."COMPLAIN_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"WASA_MMS"."LETTERS_SEQ" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "WASA_MMS"."CITIZEN_PROFILE"                25.32 KB      21 rows
+. . imported "WASA_MMS"."LETTERS"                        20.05 KB       3 rows
+. . imported "WASA_MMS"."COMPLAIN_APPLICATION"           20.38 KB       6 rows
+. . imported "WASA_MMS"."USERS"                          13.86 KB      16 rows
+. . imported "WASA_MMS"."METER_TEST_REPORT"              13.35 KB       2 rows
+. . imported "WASA_MMS"."MENUS"                          12.93 KB      32 rows
+. . imported "WASA_MMS"."PAYMENT"                        11.71 KB       5 rows
+. . imported "WASA_MMS"."CENTRAL_STOCK_COUNT"            11.55 KB       8 rows
+. . imported "WASA_MMS"."STOCK_ITEM"                     10.71 KB       3 rows
+. . imported "WASA_MMS"."PORTAL_MANAGEMENT"              10.42 KB       2 rows
+. . imported "WASA_MMS"."APPLICATION_FORWARDING"         10.58 KB       8 rows
+. . imported "WASA_MMS"."STOCK_IN"                       10.51 KB       6 rows
+. . imported "WASA_MMS"."APPLICATION_METER_DIVISION_FORWARDING"  10.47 KB       5 rows
+. . imported "WASA_MMS"."MENU_PRIVILEGE"                 10.01 KB       5 rows
+. . imported "WASA_MMS"."FORWARDING_BEFORE_NOTE"         9.914 KB       2 rows
+. . imported "WASA_MMS"."OFFICE"                         9.468 KB      13 rows
+. . imported "WASA_MMS"."MODULES"                        9.296 KB       8 rows
+. . imported "WASA_MMS"."ASSIGN_DESIGNATION"             9.257 KB      11 rows
+. . imported "WASA_MMS"."INSPECTOR_NOTE"                 8.828 KB       4 rows
+. . imported "WASA_MMS"."STOCK_OUT"                      8.898 KB       2 rows
+. . imported "WASA_MMS"."DESIGNATION"                    8.648 KB       8 rows
+. . imported "WASA_MMS"."METER_UNIT_SETUP"               8.593 KB       6 rows
+. . imported "WASA_MMS"."CITIZENS_INFO"                  8.257 KB       1 rows
+. . imported "WASA_MMS"."COMPLAINT_COMMENT"              8.335 KB       1 rows
+. . imported "WASA_MMS"."METER_CONDITION"                8.039 KB       4 rows
+. . imported "WASA_MMS"."OFFICE_TYPE"                    7.960 KB       3 rows
+. . imported "WASA_MMS"."METER_STATUS"                   7.898 KB       2 rows
+. . imported "WASA_MMS"."USER_TYPE"                      7.062 KB       3 rows
+. . imported "WASA_MMS"."role"                           7.039 KB       3 rows
+. . imported "WASA_MMS"."APPLICATION_TYPE"               8.539 KB       4 rows
+. . imported "WASA_MMS"."CENTRAL_STORE_STOCK"            9.242 KB       1 rows
+. . imported "WASA_MMS"."CITIZEN_ROLES"                      0 KB       0 rows
+. . imported "WASA_MMS"."EMPLOYEE"                           0 KB       0 rows
+. . imported "WASA_MMS"."INSPECTOR_ASSIGN_HISTORY"           0 KB       0 rows
+. . imported "WASA_MMS"."LETTER_CONDITIONS"                  0 KB       0 rows
+. . imported "WASA_MMS"."LETTER_METER_CONDITION_IDS"         0 KB       0 rows
+. . imported "WASA_MMS"."USERROLE"                           0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Job "WASA_MMS"."SYS_IMPORT_FULL_01" completed with 6 error(s) at Sun Jul 20 13:12:31 2025 elapsed 0 00:00:16
