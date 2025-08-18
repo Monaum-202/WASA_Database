@@ -1,0 +1,65 @@
+;;; 
+Export: Release 19.0.0.0.0 - Production on Mon Aug 18 15:57:27 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Starting "SPRING_USER2"."SYS_EXPORT_SCHEMA_01":  spring_user2/********@103.93.32.159:1521/ORCLPDB DIRECTORY=exp_dir DUMPFILE=spring_user2_backup.dmp LOGFILE=spring_user2_backup.log SCHEMAS=spring_user2 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "SPRING_USER2"."USERS"                      36.92 KB      56 rows
+. . exported "SPRING_USER2"."CITIZEN_PROFILE"            30.82 KB      36 rows
+. . exported "SPRING_USER2"."LETTERS"                    2.678 MB      23 rows
+. . exported "SPRING_USER2"."NOTIFICATION"               19.50 KB      59 rows
+. . exported "SPRING_USER2"."CENTRAL_STOCK_COUNT"        14.80 KB      51 rows
+. . exported "SPRING_USER2"."MENUS"                      13.47 KB      38 rows
+. . exported "SPRING_USER2"."MENU_PRIVILEGE"             12.66 KB      54 rows
+. . exported "SPRING_USER2"."STOCK_IN"                   12.07 KB      30 rows
+. . exported "SPRING_USER2"."OFFICE"                     11.10 KB      23 rows
+. . exported "SPRING_USER2"."PORTAL_MANAGEMENT"          10.83 KB       2 rows
+. . exported "SPRING_USER2"."STOCK_ITEM"                 10.73 KB       3 rows
+. . exported "SPRING_USER2"."ASSIGN_DESIGNATION"         10.77 KB      42 rows
+. . exported "SPRING_USER2"."METER_PAYMENT"              9.718 KB      20 rows
+. . exported "SPRING_USER2"."CENTRAL_STORE_STOCK"        9.718 KB      10 rows
+. . exported "SPRING_USER2"."DESIGNATION"                9.367 KB      12 rows
+. . exported "SPRING_USER2"."MODULES"                    9.296 KB       8 rows
+. . exported "SPRING_USER2"."STOCK_OUT"                  9.421 KB      13 rows
+. . exported "SPRING_USER2"."METER_UNIT_SETUP"           8.593 KB       6 rows
+. . exported "SPRING_USER2"."APPLICATION_TYPE"           8.539 KB       4 rows
+. . exported "SPRING_USER2"."CITIZENS_INFO"              8.257 KB       1 rows
+. . exported "SPRING_USER2"."METER_CONDITION"            8.039 KB       4 rows
+. . exported "SPRING_USER2"."OFFICE_TYPE"                7.992 KB       4 rows
+. . exported "SPRING_USER2"."METER_STATUS"               7.906 KB       2 rows
+. . exported "SPRING_USER2"."USER_TYPE"                  7.062 KB       3 rows
+. . exported "SPRING_USER2"."role"                       7.039 KB       3 rows
+. . exported "SPRING_USER2"."APPLICATION_FORWARDING"     12.20 KB       6 rows
+. . exported "SPRING_USER2"."APPLICATION_METER_DIVISION_FORWARDING"  11.53 KB       7 rows
+. . exported "SPRING_USER2"."CITIZEN_ROLES"                  0 KB       0 rows
+. . exported "SPRING_USER2"."COMPLAINT_COMMENT"              0 KB       0 rows
+. . exported "SPRING_USER2"."COMPLAIN_APPLICATION"       21.06 KB       7 rows
+. . exported "SPRING_USER2"."EMPLOYEE"                       0 KB       0 rows
+. . exported "SPRING_USER2"."FORWARDING_BEFORE_NOTE"     10.12 KB       5 rows
+. . exported "SPRING_USER2"."INSPECTOR_ASSIGN_HISTORY"   8.085 KB       5 rows
+. . exported "SPRING_USER2"."INSPECTOR_NOTE"             10.76 KB       5 rows
+. . exported "SPRING_USER2"."LETTER_CONDITIONS"              0 KB       0 rows
+. . exported "SPRING_USER2"."LETTER_METER_CONDITION_IDS"      0 KB       0 rows
+. . exported "SPRING_USER2"."METER_TEST_REPORT"          14.11 KB       2 rows
+. . exported "SPRING_USER2"."PAYMENT"                    12.85 KB       3 rows
+. . exported "SPRING_USER2"."PLMA_NOTE"                  9.015 KB       2 rows
+. . exported "SPRING_USER2"."USERROLE"                       0 KB       0 rows
+Master table "SPRING_USER2"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SPRING_USER2.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLE\DUMPS\SPRING_USER2_BACKUP.DMP
+Job "SPRING_USER2"."SYS_EXPORT_SCHEMA_01" successfully completed at Mon Aug 18 15:59:56 2025 elapsed 0 00:02:09
